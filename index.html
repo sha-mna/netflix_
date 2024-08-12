@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <link rel="icon" href="" type="image">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- All the content should be inside this video -->
+    <div class="video-background">
+
+        <!-- Bringing the video -->
+        <video autoplay loop muted playsinline>
+            <source src="Tom_and_Jerry_in_New_York_Official_Trailer_Max_Family_id7XSe3UFzk.mp4" type="video/mp4">
+        </video>
+
+        <!-- All things above the video -->
+        <div class="content">
+            <img src="t&j.webp" alt="movie title image" class="title-img">
+            <p>
+                Follow the iconic cat and mouse duo as they settle in to their new digs at the Royal Gate Hotel and unleash mayhem across the big city, inciting hilarious chaos uptown, downtown and everywhere their manic escapades take them.
+            </p>
+            <div class="buttons">
+                <button class="btn play">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                        <path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/>
+                    </svg>
+                    Play
+                </button>
+                <button class="btn more-info">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                        <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336h24V272H216c-13.3 0-24-10.7-24-24s10.7-24 24-24h48c13.3 0 24 10.7 24 24v88h8c13.3 0 24 10.7 24 24s-10.7 24-24 24H216c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"/>
+                    </svg>
+                    More Info
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------NAVBAR DIV ------------------- -->
+     <div class="navbar">
+        <div class="left-nav">
+            <a href="/browse" class="logo">
+                <img src="netflix.jpg" alt="Netflix Logo">
+            </a>
+            <ul class="navigation">
+                <li><a href="/browse">Home</a></li>
+                <li><a href="/browse/genre/83">TV Shows</a></li>
+                <li><a href="/browse/genre/34399">Movies</a></li>
+                <li><a href="/latest">New & Popular</a></li>
+                <li><a href="/browse/my-list">My List</a></li>
+                <li><a href="/browse/original-audio">Browse By Languages</a></li>
+            </ul>
+        </div>
+        <div class="right-nav">
+            <button class="icon-search" aria-label="Search">
+
+            </button>
+            <a href="/Kids">Children</a>
+            <button>
+                <span class="notification-count">3</span>
+            </button>
+            <div class="profile">
+                <img src="user.jpg" alt="User Profile" class="profile-pic">
+                <div class="dropdown">
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Account</a></li>
+                        <li><a href="#">Help Center</a></li>
+                        <li class="separator"></li>
+                        <li><a href="#">Sign Out</a></li>
+                    </ul>
+                </div>
+            </div>           
+        </div>
+     </div>   
+</body>
+</html>
